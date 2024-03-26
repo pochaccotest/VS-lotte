@@ -31,6 +31,8 @@ public class LoginPageTest : IDisposable
 
         Thread.Sleep(2000);
         //driver.FindElement(By.LinkText("My Info")).Click();
+       
+
         try
         {
             // find an element invalid
@@ -46,28 +48,43 @@ public class LoginPageTest : IDisposable
             }
         }
         catch
-        {           
-                // find an element require username
-                IWebElement MsgRqU = driver.FindElement(By.XPath("//div[@class='orangehrm-login-form']//div[2]//div[1]//span[1]"));
-                // store text of an element in a string
-                String vMsgRqU = MsgRqU.Text;
-                if (vMsgRqU.Contains("Required"))
-                {
-                    Thread.Sleep(2000);
-                    // Take a screenshot and save it to a file
-                    ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile($"..\\..\\..\\..\\TestResult\\RequiredU.png");
-                }
-            
-                // find an element require password
-                IWebElement MsgRqP = driver.FindElement(By.XPath("//div[@class='orangehrm-login-slot-wrapper']//div[1]//div[1]//span[1]"));
-                // store text of an element in a string
-                String vMsgRqP = MsgRqP.Text;
-                if (vMsgRqP.Contains("Required"))
-                {
-                    Thread.Sleep(2000);
-                    // Take a screenshot and save it to a file
-                    ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile($"..\\..\\..\\..\\TestResult\\RequiredP.png");
-                }           
+        {
+
+        }
+
+        try
+        {
+            // find an element require username
+            IWebElement MsgRqU = driver.FindElement(By.XPath("//div[@class='orangehrm-login-form']//div[2]//div[1]//span[1]"));
+            // store text of an element in a string
+            String vMsgRqU = MsgRqU.Text;
+            if (vMsgRqU.Contains("Required"))
+            {
+                Thread.Sleep(2000);
+                // Take a screenshot and save it to a file
+                ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile($"..\\..\\..\\..\\TestResult\\RequiredU.png");
+            }
+        }
+        catch
+        {
+
+        }
+        try
+        {
+            // find an element require password
+            IWebElement MsgRqP = driver.FindElement(By.XPath("//div[@class='orangehrm-login-slot-wrapper']//div[1]//div[1]//span[1]"));
+            // store text of an element in a string
+            String vMsgRqP = MsgRqP.Text;
+            if (vMsgRqP.Contains("Required"))
+            {
+                Thread.Sleep(2000);
+                // Take a screenshot and save it to a file
+                ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile($"..\\..\\..\\..\\TestResult\\RequiredP.png");
+            }
+        }
+        catch
+        {
+
         }
     }
 

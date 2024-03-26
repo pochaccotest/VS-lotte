@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8p0KG5MQxZVSIXIjP7adE2F60HxnRxvmXDLr+SWUUlkC1EFg1k2JRSML/yiDdeaiaBueFEXeQheGFhfJUmvKZw==",
+  "dgSpecHash": "4MEeoMFIYCPFtvXbN9IUOUW414bAFXDb2U2V2ujqLcmzFrHK6IZn1jvv9AO0KoNsVWUFep12s+ROs5rf7rrGjQ==",
   "success": true,
-  "projectFilePath": "D:\\Duyen\\VisualStudio\\Projects\\0TEMP\\0TEMP\\0TEMP.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Duyen\\VS-lotte\\Project\\0TEMP\\0TEMP\\0TEMP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\7.0.10\\epplus.7.0.10.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
@@ -34,7 +34,11 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.4\\system.security.cryptography.pkcs.6.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }
